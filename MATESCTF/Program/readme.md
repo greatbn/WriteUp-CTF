@@ -10,7 +10,7 @@ Ví dụ: ở lớp đầu tiên, tên file bên trong là say_my_name. Do đó,
 Lớp cuối cùng chính là cờ.
 
 Nếu cờ không có dạng matesctf{...}, bạn hãy thêm nó vào cờ
-Link: (what_am_i)[http://files.matesctf.org/binary/what_am_i_bd6788043be8300f6f5ed298be42ed91]
+Link: [what_am_i](http://files.matesctf.org/binary/what_am_i_bd6788043be8300f6f5ed298be42ed91)
 ```
 
 Đề bài gợi ý là mật khẩu giải nén sẽ là tên file bên trong nên mình phải viết 1 chương trình để làm sao lấy được tên bên trong của file nén và điền vào để giải nén
