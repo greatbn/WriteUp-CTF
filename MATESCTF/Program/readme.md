@@ -55,4 +55,25 @@ Mở lên và submit. Đã có 200 points
 
 <img src="http://i.imgur.com/FM3R4Zd.png">
 
+Tham khảo code bằng python
+
+import py7zlib
+ 
+```
+
+filename = 'what_am_i_bd6788043be8300f6f5ed298be42ed91'
+while True:
+        f = py7zlib.Archive7z(open(filename, 'rb'))
+        password = f.getnames()[0]
+        f = py7zlib.Archive7z(open(filename, 'rb'), password)
+        open(password,'wb').write(f.getmember(password).read())
+        filename = password
+        print filename
+        if filename == 'flag':
+                print 'Flag:', open('flag', 'r').read()
+                break
+ 
+#Flag: matesctf{fin@11y_y0u_f0und_my_n@m3!}
+
+```
 
